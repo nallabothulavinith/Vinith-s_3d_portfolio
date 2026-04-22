@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nallabothula Vinith | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9d7fe1bad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <div class="nav-logo">
+            <span class="logo-dot"></span>
+            <span>NV</span>
+        </div>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="header">
+    <div class="hero-bg">
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+    </div>
+    <div class="hero-content container">
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Open to Opportunities
+        </div>
+        <h1 class="hero-title">
+            <span class="hero-name">Nallabothula</span>
+            <span class="hero-name accent">Vinith</span>
+        </h1>
+        <p class="hero-role">Data Analyst Enthusiast</p>
+        <p class="hero-sub">Specializing in uncovering insights from data using<br>Python · SQL · Power BI · Excel · GenAI</p>
+        <div class="hero-cta">
+            <a href="#portfolio" class="btn-primary">View My Work</a>
+            <a href="#contact" class="btn-ghost">Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Years Experience</span></div>
+            <div class="stat-divider"></div>
+            <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Tools Mastered</span></div>
+            <div class="stat-divider"></div>
+            <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Projects Done</span></div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+    </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+    <div class="container">
+        <div class="section-tag">Who I Am</div>
+        <div class="about-grid">
+            <div class="about-img-wrap">
+                <div class="about-img-border"></div>
+                <img src="https://nallabothulavinith.github.io/Vinith-Portfolio/images/Untitled.png" alt="Vinith">
+                <div class="about-img-accent"></div>
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">I am a passionate Data Analyst with expertise in Excel, Power BI, SQL, Tableau, and HTML/CSS. Having completed my MBA in 2024, I am fully committed to building a career in Data Analytics. I've created interactive sales dashboards and I'm expanding my Python skills to further enhance my analytical capabilities.</p>
+
+                <div class="tab-titles">
+                    <button class="tab-links active-link" onclick="opentab('skills')">Skills</button>
+                    <button class="tab-links" onclick="opentab('experience')">Experience</button>
+                    <button class="tab-links" onclick="opentab('education')">Education</button>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul class="tab-list">
+                        <li>
+                            <span class="tag">Data Cleaning & Validation</span>
+                            <p>Review raw data from internal portals and prepare it for accurate business reporting.</p>
+                        </li>
+                        <li>
+                            <span class="tag">Excel-Based Reporting</span>
+                            <p>Build trackers, summaries, comparisons, and performance reports using Advanced Excel.</p>
+                        </li>
+                        <li>
+                            <span class="tag">Business Performance Analysis</span>
+                            <p>Analyze sales movement, operational trends, and KPI performance to support decisions.</p>
+                        </li>
+                        <li>
+                            <span class="tag">Stakeholder Coordination</span>
+                            <p>Coordinate with store managers, clusters, HR-related teams, and other business functions.</p>
+                        </li>
+                        <li>
+                            <span class="tag">CRM Reporting Support</span>
+                            <p>Maintain accurate records and support customer and campaign-related data workflows.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul class="tab-list timeline">
+                        <li>
+                            <span class="tag">2021 – 2022</span>
+                            <p><strong>Asst. Sales Manager</strong> at Reliance — Managed sales targets and transitioned to cross-functional teams through internal transfer.</p>
+                        </li>
+                        <li>
+                            <span class="tag">2022 – Present</span>
+                            <p><strong>Sales & Operations Analyst</strong> at Reliance — Led recruitment and supported HR operations & CRM coordination.</p>
+                        </li>
+                        <li>
+                            <span class="tag">2024</span>
+                            <p><strong>Data Analytics Intern</strong> at Unified Mentor — Online internship in data analytics.</p>
+                        </li>
+                        <li>
+                            <span class="tag">2024</span>
+                            <p><strong>Data Analyst Intern</strong> at Whitescholars — Dashboards using Power BI, Tableau, Excel, Python, and SQL.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul class="tab-list timeline">
+                        <li>
+                            <span class="tag">2017 – 2020</span>
+                            <p><strong>B.B.A in Business & Operations Management</strong><br>PIHM Hyderabad</p>
+                        </li>
+                        <li>
+                            <span class="tag">2021 – 2024</span>
+                            <p><strong>MBA in Marketing & HRM</strong><br>Sri Venkateswara University, Tirupati</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SKILLS BAR ===== -->
+<section id="skillbars">
+    <div class="container">
+        <div class="skills-row">
+            <div class="skill-pill"><i class="fas fa-table"></i> Advanced Excel</div>
+            <div class="skill-pill"><i class="fas fa-chart-bar"></i> Power BI</div>
+            <div class="skill-pill"><i class="fas fa-chart-area"></i> Tableau</div>
+            <div class="skill-pill"><i class="fas fa-database"></i> SQL</div>
+            <div class="skill-pill"><i class="fab fa-python"></i> Python</div>
+            <div class="skill-pill"><i class="fas fa-brain"></i> GenAI</div>
+            <div class="skill-pill"><i class="fab fa-html5"></i> HTML/CSS</div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section id="services">
+    <div class="container">
+        <div class="section-tag">What I Offer</div>
+        <h2 class="section-title">My Expertise</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Data Analytics</h3>
+                <p>Transforming raw data into actionable insights using Advanced Excel, Power BI, and Python analytics pipelines.</p>
+                <a href="#" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card featured">
+                <div class="service-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                <h3>Dashboard Creation</h3>
+                <p>Designing interactive, visually compelling dashboards that simplify data interpretation for better business decisions.</p>
+                <a href="https://public.tableau.com/views/Book1_17345481244490/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" class="service-link" target="_blank">Explore <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-database"></i></div>
+                <h3>Database Management</h3>
+                <p>Managing and querying databases efficiently using SQL to power data-driven strategies and operations.</p>
+                <a href="#" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<section id="portfolio">
+    <div class="container">
+        <div class="section-tag">My Work</div>
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="portfolio-grid">
+            <div class="work-card">
+                <div class="work-img-wrap">
+                    <img src="https://nallabothulavinith.github.io/Vinith-Portfolio/images/11.png" alt="Data Analysis Project">
+                    <div class="work-overlay">
+                        <a href="#" class="work-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-tags">
+                        <span>Power BI</span><span>Python</span>
+                    </div>
+                    <h3>Data Analysis Project</h3>
+                    <p>Analyzing large datasets to provide actionable insights using Power BI and Python.</p>
+                </div>
+            </div>
+
+            <div class="work-card featured-work">
+                <div class="work-img-wrap">
+                    <img src="https://nallabothulavinith.github.io/Vinith-Portfolio/images/22.png" alt="Interactive Dashboard">
+                    <div class="work-overlay">
+                        <a href="https://public.tableau.com/views/Book1_17345481244490/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" class="work-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-tags">
+                        <span>Tableau</span><span>BI</span>
+                    </div>
+                    <h3>Interactive Dashboard</h3>
+                    <p>Visualizing business performance metrics and KPIs for real-time decision-making.</p>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="work-img-wrap">
+                    <img src="https://nallabothulavinith.github.io/Vinith-Portfolio/images/33.png" alt="SQL Data Management">
+                    <div class="work-overlay">
+                        <a href="#" class="work-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-tags">
+                        <span>SQL</span><span>Database</span>
+                    </div>
+                    <h3>SQL Data Management</h3>
+                    <p>Complex SQL queries to extract and analyze data from large enterprise databases.</p>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-cta">
+            <a href="https://github.com/nallabothulavinith" target="_blank" class="btn-ghost"><i class="fab fa-github"></i> More on GitHub</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+    <div class="container">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p class="contact-intro">I'm currently open to new opportunities. Whether you have a project in mind or just want to say hello — my inbox is always open.</p>
+                <div class="contact-details">
+                    <a href="mailto:vinith1211@gmail.com" class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <span class="contact-label">Email</span>
+                            <span class="contact-val">vinith1211@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="tel:9704447287" class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <span class="contact-label">Phone</span>
+                            <span class="contact-val">+91 9704447287</span>
+                        </div>
+                    </a>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <span class="contact-label">Location</span>
+                            <span class="contact-val">Hyderabad, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-row">
+                    <a href="https://www.linkedin.com/in/nvinith/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/nallabothulavinith" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/profile/vinithn" target="_blank" title="HackerRank"><i class="fab fa-hackerrank"></i></a>
+                    <a href="https://www.facebook.com/vinithphotographytalks/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <a href="https://nallabothulavinith.github.io/Vinith-Portfolio/images/N Vinith Analyst.pdf" download class="btn-primary download-btn">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+
+            <div class="contact-form-wrap">
+                <form name="submit-to-google-sheet">
+                    <div class="form-group">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="footer-inner">
+        <div class="footer-logo">NV</div>
+        <p>Designed & Built by <strong>Nallabothula Vinith</strong></p>
+        <p class="footer-copy">© 2025 All rights reserved</p>
+    </div>
+</footer>
+
+<!-- ===== SCRIPTS ===== -->
+<script>
+    // Tab switching
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (var tablink of tablinks) tablink.classList.remove("active-link");
+        for (var tabcontent of tabcontents) tabcontent.classList.remove("active-tab");
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    // Mobile menu
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() { sidemenu.style.right = "0"; }
+    function closemenu() { sidemenu.style.right = "-250px"; }
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+        const nav = document.getElementById('navbar');
+        nav.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Contact form
+    const scriptURL = '< add your own link here >';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "✓ Message sent successfully!";
+                setTimeout(() => { msg.innerHTML = ""; }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+    });
+
+    // Animate on scroll
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) entry.target.classList.add('visible');
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.service-card, .work-card, .about-img-wrap').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
